@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css');
+
+
+main img {
+  border: 3px solid #89cff0;
+}
+
+p {
+  color: #89cff0;
+  font-family: 'Raleway', Arial, sans-serif;
+  font-size: 1.1em;
+  display: inline;
+}
