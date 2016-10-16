@@ -11,23 +11,15 @@ main {
   background-color: yellow;
 }
 
-
-
 img  {
   border: 3px solid #89cff0;
   border-width: medium;
   width: 25%;
   margin: 0 20px;
   clear: both;
-
 }
 
-/*nav .borderbox {
-  background: brown;
-  clear: both;
-}*/
-
-ul  {
+/*ul  {
   margin: 10px;
   border: 3px solid #89cff0;
   border-top: none;
@@ -36,35 +28,59 @@ ul  {
   position: relative;
   left: 72px;
   bottom: 20px;
-}
+}*/
 
 li {
   list-style: none;
   display: inline;
-  /*border: 2px solid;*/
   padding: 15px;
 }
 
+.icons ul {
+  border: 3px solid #89cff0;
+  border-top: none;
+  width: 25%;
+  margin: 10px;
+  padding: 15px 0;
+
+}
 
 a.fa {
   font-size: 1.2em;
   color: #89cff0;
   list-style: none;
+
+}
+
+.icons1 {
+  position: relative;
+  left: 72px;
+  bottom: 20px;
+}
+
+.icons2 {
+  position: relative;
+  left: 392px;
+  bottom: 80px;
+}
+
+.icons3 {
+  position: relative;
+  left: 712px;
+  bottom: 140px;
 }
 
 p {
   color: #89cff0;
   font-family: 'Raleway', Arial, sans-serif;
   font-size: 1.1em;
-
+  display: inline;
 }
 
-.text {
+.text-align{
   border: none;
-  display: block;
   width: 25%;
-  position: relative;
-  left: 10px;
+
 }
 
 .text > p {
