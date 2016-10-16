@@ -8,7 +8,6 @@ body {
 main {
   margin: 100px 100px;
   text-align: center;
-  background-color: yellow;
 }
 
 img  {
@@ -36,6 +35,10 @@ li {
   padding: 15px;
 }
 
+nav.icons {
+  margin: 0;
+}
+
 .icons ul {
   border: 3px solid #89cff0;
   border-top: none;
@@ -49,7 +52,15 @@ a.fa {
   font-size: 1.2em;
   color: #89cff0;
   list-style: none;
+}
 
+a.fa:hover {
+  color: #ffffff;
+}
+
+li:hover {
+  background-color: #89cff0;
+  color: #ffffff;
 }
 
 .icons1 {
@@ -64,25 +75,55 @@ a.fa {
   bottom: 80px;
 }
 
+.icons2 .fa-stop {
+  color: #e75480;
+}
+
 .icons3 {
   position: relative;
   left: 712px;
   bottom: 140px;
 }
 
-p {
+.icons3 .fa-stop {
+  color: #EBCA97;
+}
+
+.fa-stop:hover {
+
+}
+
+
+.text-align {
+  border: none;
+  width: 25%;
+}
+
+.text-align p {
   color: #89cff0;
   font-family: 'Raleway', Arial, sans-serif;
   font-size: 1.1em;
   display: inline;
 }
 
-.text-align{
-  border: none;
-  width: 25%;
-
+p + p {
+  font-weight: bold;
 }
 
-.text > p {
-  display: inline;
+.text1 {
+  position: absolute;
+  top: 450px;
+  right: 940px;
+}
+
+.text2 {
+  position: absolute;
+  top: 450px;
+  right: 630px;
+}
+
+.text3 {
+  position: absolute;
+  top: 450px;
+  right: 310px;
 }
