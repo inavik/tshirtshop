@@ -64,20 +64,13 @@ li:hover {
 }
 
 /*popup when hovering*/
-nav.fa-stop:hover {
-  border: 1px solid #89cff0;
-  width: 25%;
-  height: 25%;
-  content: "";
-  z-index:
-}
 
 
-nav ul.popup {
+.iconpopup + .popup {
   overflow: hidden;
-  display: block;
-  border: solid;
-  border-width: 2px;
+  width: 30%;
+  height: 25%;
+  border: 1px solid #89cff0;
 }
 
 
