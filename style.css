@@ -1,14 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500');
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css');
 
+
+
+
 main {
-  width: 1050px;
+  width: 350px;
   margin: 0 auto;
 }
 
 article {
   width: 300px;
-  float: left;
+  /*float: left;*/
   margin: 25px;
   box-sizing: border-box;
   position: relative;
@@ -22,6 +25,22 @@ article section {
 
 article img {
   width: 100%;
+}
+
+@media screen and (min-width: 700px) {
+  article {
+    float: left;
+  }
+
+  main {
+    width: 700px;
+  }
+}
+
+@media screen and (min-width: 1050px) {
+    main {
+    width: 1050px;
+  }
 }
 
 .backofshirt {
@@ -102,6 +121,21 @@ a.fa:hover {
 .popup li {
   border: none;
 }
+
+
+
+
+/*@media screen and (min-width: 800px) {
+  article {
+    width: 33%;
+  }
+}*/
+
+
+
+
+
+
 
 /*body {
   margin: 0;
